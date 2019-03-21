@@ -17,7 +17,6 @@ public class NumberGame {
         if (number == pickedNumber){
             System.out.println("Congrats! " +pickedNumber+ " was the correct answer!");
         }
-
         while (number > pickedNumber || number < pickedNumber) {
 
             if (number > pickedNumber) {
