@@ -10,7 +10,6 @@ public class NumberGame {
         int pickedNumber;
 
         pickedNumber = (int) (Math.random() * 100);
-        System.out.println(pickedNumber);
 
         System.out.println("Please try to guess my number out of 100.");
         number = keyboard.nextInt();
